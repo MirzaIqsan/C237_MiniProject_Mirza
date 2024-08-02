@@ -15,10 +15,10 @@ const port = 3000;
 app.use(express.static('public'));
 
 const connection = mysql.createConnection({
-    host: "localhost",
-    user:"root",
-    password:"",
-    database:"catcafe"
+    host: "mysql-mirzaiqsan.alwaysdata.net",
+    user:"371289",
+    password:"Mirz@blum@n1!",
+    database:"mirzaiqsan_project"
 })
 
 
